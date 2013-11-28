@@ -1,0 +1,75 @@
+<locations>
+		<entry>
+		<title>1. Peters Pub - 6pm</title>
+		<latitude>53.340936</latitude>
+		<longitude>-6.263291</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>2. Capitol Bar - 6.30pm</title>
+		<latitude>53.341251</latitude>
+		<longitude>-6.265297</longitude>,
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>3. Hogans - 7pm</title>
+		<latitude>53.34193</latitude>
+		<longitude>-6.2646</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>4. Market Bar - 7.30pm</title>
+		<latitude>53.342039</latitude>
+		<longitude>-6.264042</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>5. Grogans - 8pm</title>
+		<latitude>53.34211</latitude>
+		<longitude>-6.262786</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>6. Dakota - 8.30pm</title> 
+		<latitude>53.342545</latitude>
+		<longitude>-6.262486</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>7. O'Neills - 9pm</title>
+		<latitude>53.343962</latitude>
+		<longitude>-6.260785</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>8. The Bank - 9.30pm</title>
+		<latitude>53.344201</latitude>
+		<longitude>-6.261555</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>9. Foggy Dew - 10pm</title>
+		<latitude>53.344441</latitude>
+		<longitude>-6.263462</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>10. The Mercantile - 10.30pm</title>
+		<latitude>53.343974</latitude>
+		<longitude>-6.263999</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>11. Stag's Head - 11pm</title>
+		<latitude>53.343685</latitude>
+		<longitude>-6.26357</longitude>
+		<link>#ThePubs</link>
+	</entry>
+	<entry>
+		<title>12. The Globe - 11.30om</title>
+		<latitude>53.343386</latitude>
+		<longitude>-6.264275</longitude>
+		<link>#ThePubs</link>
+	</entry>
+
+</locations>
