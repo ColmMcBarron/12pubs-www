@@ -3,7 +3,8 @@
 		<title>1. Peters Pub - 6pm</title>
 		<latitude>53.340936</latitude>
 		<longitude>-6.263291</longitude>
-		<hours><![CDATA[A good place to start the 12 pub adventure, although Aisling Hannon & Co you need to move to the next Pub at 6.30pm!]]></hours>
+		<hours><![CDATA[<p><b>Test</b></p>
+<p>a Jaysus load of funny text <i>might</i> be possible if <strong>HTML</strong> works.</p>]]></hours>
 	</entry>
 	<entry>
 		<title>2. Capitol Bar - 6.30pm</title>
