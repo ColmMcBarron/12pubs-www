@@ -1,20 +1,20 @@
 <locations>
-		<entry>
+	<entry>
 		<title>1. Peters Pub - 6pm</title>
 		<latitude>53.340936</latitude>
 		<longitude>-6.263291</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>2. Capitol Bar - 6.30pm</title>
-		<latitude>53.341251</latitude>
-		<longitude>-6.265297</longitude>,
+		<title>2. P Mac's - 6.30pm</title>
+		<latitude>53.341148</latitude>
+		<longitude>-6.264292</longitude>,
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>3. Hogans - 7pm</title>
-		<latitude>53.34193</latitude>
-		<longitude>-6.2646</longitude>
+		<title>3. Grogan's - 7pm</title>
+		<latitude>53.342211</latitude>
+		<longitude>-6.262531</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
@@ -24,52 +24,52 @@
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>5. Grogans - 8pm</title>
-		<latitude>53.34211</latitude>
-		<longitude>-6.262786</longitude>
+		<title>5. Hogans - 8pm</title>
+		<latitude>53.341992</latitude>
+		<longitude>-6.2645969</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>6. Dakota - 8.30pm</title> 
-		<latitude>53.342545</latitude>
-		<longitude>-6.262486</longitude>
+		<title>6. The Swan Bar - 8.30pm</title>
+		<latitude>53.33965</latitude>
+		<longitude>-6.2657167</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>7. O'Neills - 9pm</title>
-		<latitude>53.343962</latitude>
-		<longitude>-6.260785</longitude>
+		<title>7. Against the Grain - 9pm</title>
+		<latitude>53.336977</latitude>
+		<longitude>-6.2656537</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>8. The Bank - 9.30pm</title>
-		<latitude>53.344201</latitude>
-		<longitude>-6.261555</longitude>
+		<title>8. Solas - 9.30pm</title>
+		<latitude>53.3369129</latitude>
+		<longitude>-6.2656537</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>9. Foggy Dew - 10pm</title>
-		<latitude>53.344441</latitude>
-		<longitude>-6.263462</longitude>
+		<title>9. Whelan's - 10pm</title>
+		<latitude>53.336576</latitude>
+		<longitude>-6.265646</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>10. The Mercantile - 10.30pm</title>
-		<latitude>53.343974</latitude>
-		<longitude>-6.263999</longitude>
+		<title>10. Anseo - 10.30pm</title>
+		<latitude>53.335279</latitude>
+		<longitude>-6.265132</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>11. Stag's Head - 11pm</title>
-		<latitude>53.343685</latitude>
-		<longitude>-6.26357</longitude>
+		<title>11. The Bleeding Horse - 11pm</title>
+		<latitude>53.333529</latitude>
+		<longitude>-6.264981</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>12. The Globe - 11.30om</title>
-		<latitude>53.343386</latitude>
-		<longitude>-6.264275</longitude>
+		<title>12. The Bernard Shaw - 11.30pm</title>
+		<latitude>53.331715</latitude>
+		<longitude>-6.264575</longitude>
 		<link>#ThePubs</link>
 	</entry>
-
+	
 </locations>
