@@ -1,4 +1,4 @@
 12pubs-www
 ==========
 
-iQ 12 pubs
+Each & Other 12 pubs mobile website
