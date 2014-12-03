@@ -6,16 +6,17 @@
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>2. P Mac's - 6.30pm</title>
-		<latitude>53.341148</latitude>
-		<longitude>-6.264292</longitude>,
-		<link>#ThePubs</link>
-	</entry>
-	<entry>
-		<title>3. Grogan's - 7pm</title>
+	<title>2. Grogan's - 6.30pm</title>
 		<latitude>53.342211</latitude>
 		<longitude>-6.262531</longitude>
 		<link>#ThePubs</link>
+	</entry>
+	<entry>
+	<title>3. Hogans - 7pm</title>
+		<latitude>53.341992</latitude>
+		<longitude>-6.2645969</longitude>
+		<link>#ThePubs</link>
+		
 	</entry>
 	<entry>
 		<title>4. Market Bar - 7.30pm</title>
@@ -24,9 +25,9 @@
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>5. Hogans - 8pm</title>
-		<latitude>53.341992</latitude>
-		<longitude>-6.2645969</longitude>
+	<title>5. P Mac's - 8pm</title>
+		<latitude>53.341148</latitude>
+		<longitude>-6.264292</longitude>,
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
@@ -48,15 +49,15 @@
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>9. Whelan's - 10pm</title>
-		<latitude>53.336576</latitude>
-		<longitude>-6.265646</longitude>
+		<title>9. Ryan's of Wexford St. - 10pm</title>
+		<latitude>53.336394</latitude>
+		<longitude>-6.265459</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
-		<title>10. Anseo - 10.30pm</title>
-		<latitude>53.335279</latitude>
-		<longitude>-6.265132</longitude>
+		<title>10. Cassidy's of Wexford St. - 10.30pm</title>
+		<latitude>53.334008</latitude>
+		<longitude>-6.265237</longitude>
 		<link>#ThePubs</link>
 	</entry>
 	<entry>
