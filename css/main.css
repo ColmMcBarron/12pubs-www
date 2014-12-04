@@ -53,13 +53,13 @@ textarea{resize:vertical}
 
 
 /* ====== Overwrite some default jQuery mobile styles ======================= */
-.ui-page{background: #89c5bb }
+.ui-page{background: #00adef }
 .ui-content{padding:10px;color:#ffb9c5}
 .ui-body-a{text-shadow: none;}
 .ui-body-a a.ui-link{color:#fff!important}
 
 .ui-btn-up-a, .ui-btn-hover-a {
-  background: none repeat scroll 0 0 #89c5bb;
+  background: none repeat scroll 0 0 #00adef;
   border: medium none !important;
 }
 
@@ -232,7 +232,7 @@ a.ui-btn.ui-btn-icon-notext .ui-icon.ui-icon-target {
 .ui-listview li.ui-field-contain.ui-li.ui-btn-up-c,
 .ui-listview li.ui-field-contain.ui-li.ui-btn-up-d,
 .ui-listview li.ui-field-contain.ui-li.ui-btn-hover-d{
-  border-bottom: 1px solid #89c5bb;
+  border-bottom: 1px solid #00adef;
   padding: 0;
 }
 
@@ -248,7 +248,7 @@ a.ui-btn.ui-btn-icon-notext .ui-icon.ui-icon-target {
     {
         padding:1.25em 1em;
         font-size:1.200em;
-        color: #89c5bb;
+        color: #00adef;
     }
 
 
@@ -397,7 +397,7 @@ ul
 .mapCanvas a{color:#000}
 
 
-/* ====== ￼1.0 Home - Landing page ========================================== */
+/* ====== 1.0 Home - Landing page ========================================== */
 
 
     h1.logo{
@@ -468,13 +468,13 @@ ul
 
 
         .splashIntro{
-          background:  url(../img/common/Crest.png) no-repeat center center, #89c5bb;
-          background:  url(../img/common/Crest.png) no-repeat center center, -moz-linear-gradient(top,  #89c5bb 0%, #56ac9d 100%);
-            background: url(../img/common/Crest.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89c5bb), color-stop(100%,#56ac9d));
-            background: url(../img/common/Crest.png) no-repeat center center, -webkit-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-            background: url(../img/common/Crest.png) no-repeat center center, -o-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-            background: url(../img/common/Crest.png) no-repeat center center, -ms-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-            background: url(../img/common/Crest.png) no-repeat center center, linear-gradient(to bottom,  #89c5bb 0%,#56ac9d 100%);
+          background:  url(../img/common/Crest.png) no-repeat center center, #00adef;
+          background:  url(../img/common/Crest.png) no-repeat center center, -moz-linear-gradient(top,  #00adef 0%, #56ac9d 100%);
+            background: url(../img/common/Crest.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00adef), color-stop(100%,#56ac9d));
+            background: url(../img/common/Crest.png) no-repeat center center, -webkit-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+            background: url(../img/common/Crest.png) no-repeat center center, -o-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+            background: url(../img/common/Crest.png) no-repeat center center, -ms-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+            background: url(../img/common/Crest.png) no-repeat center center, linear-gradient(to bottom,  #00adef 0%,#56ac9d 100%);
           position: absolute;
           top: 0;
           bottom: 0;
@@ -556,9 +556,9 @@ ul
     .ui-listview .ui-btn.ui-btn-up-c,
     .ui-listview .ui-btn.ui-btn-hover-c {
         border: none;
-        border-bottom: 1px solid #89c5bb;
+        border-bottom: 1px solid #00adef;
         background: #fff;
-        color: #89c5bb;
+        color: #00adef;
         text-shadow: none
     }
 
@@ -593,7 +593,7 @@ ul
         }
 
         .ui-listview .ui-btn-inner .ui-btn-text {
-          color: #89c5bb;
+          color: #00adef;
           font-size: 1.125em;
           display: inline-block;
           padding-left: 25px;
@@ -602,7 +602,7 @@ ul
         }
 
         .ui-listview .ui-btn-inner .ui-btn-text a.ui-link-inherit {
-          color: #89c5bb;
+          color: #00adef;
           padding: 1em 30px 1em 0;
         }
 
@@ -809,7 +809,7 @@ ul.no-round-top,ul.no-round-top .ui-corner-top
     }
         .content-wrapper h2 .sub-head{
             display: block;
-            color: #89C5BB;
+            color: #00adef;
             text-shadow: 0px 1px 0px RGBA(0,0,0,0.13);
             font-size: 0.857em;
             line-height: 1em;
@@ -819,7 +819,7 @@ ul.no-round-top,ul.no-round-top .ui-corner-top
     .content-wrapper h3{
         margin: 0;
         padding: 0 15px;
-        color: #89c5bb;
+        color: #00adef;
         font-size: 1.200em;
     }
 
@@ -1289,19 +1289,19 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 
 
     .splashIntro{
-      background:  url(../img/common/Crest@2x.png) no-repeat center center, #89c5bb;
-      background:  url(../img/common/Crest@2x.png) no-repeat center center, -moz-linear-gradient(top,  #89c5bb 0%, #56ac9d 100%);
-      background: url(../img/common/Crest@2x.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89c5bb), color-stop(100%,#56ac9d));
-      background: url(../img/common/Crest@2x.png) no-repeat center center, -webkit-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-      background: url(../img/common/Crest@2x.png) no-repeat center center, -o-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-      background: url(../img/common/Crest@2x.png) no-repeat center center, -ms-linear-gradient(top,  #89c5bb 0%,#56ac9d 100%);
-      background: url(../img/common/Crest@2x.png) no-repeat center center, linear-gradient(to bottom,  #89c5bb 0%,#56ac9d 100%);
+      background:  url(../img/common/Crest@2x.png) no-repeat center center, #00adef;
+      background:  url(../img/common/Crest@2x.png) no-repeat center center, -moz-linear-gradient(top,  #00adef 0%, #56ac9d 100%);
+      background: url(../img/common/Crest@2x.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00adef), color-stop(100%,#56ac9d));
+      background: url(../img/common/Crest@2x.png) no-repeat center center, -webkit-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+      background: url(../img/common/Crest@2x.png) no-repeat center center, -o-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+      background: url(../img/common/Crest@2x.png) no-repeat center center, -ms-linear-gradient(top,  #00adef 0%,#56ac9d 100%);
+      background: url(../img/common/Crest@2x.png) no-repeat center center, linear-gradient(to bottom,  #00adef 0%,#56ac9d 100%);
       background-size: 225px auto, auto auto;
     }
 
     h1.logo{
       background-image: url("../img/common/Logo@2x.png");
-      background-size: 150px auto;
+      background-size: 225px auto;
     }
 
 
