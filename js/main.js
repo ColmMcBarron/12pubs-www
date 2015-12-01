@@ -385,6 +385,8 @@
             });
         }
     }
+
+    
     //-------✂---------------------------------------------
 
 
@@ -447,9 +449,10 @@
     // Map
     //-------✂---------------------------------------------
     $("#PubMap").live('pageshow', function () {
+        getXMLLocations();
         //Define page start lat|lon coordinates
-        UCC.newLat = 53.3419119;
-        UCC.newLon = -6.2614364;
+        UCC.newLat = 53.344134;
+        UCC.newLon = -6.269902;
         //UCC.newLat = 51.89295;
         //UCC.newLon = -8.49237;
         //
@@ -477,11 +480,23 @@
                 infowindow.open(map, this);
             });
         }
+        function drawLines(lineMarkers, map) {
+            var path = new google.maps.Polyline({
+                    path: lineMarkers,
+                    geodesic: true,
+                    strokeColor: '#FF0000',
+                    strokeOpacity: 1.0,
+                    strokeWeight: 2
+                  });
+
+                path.setMap(map);
+        }
 
         window.setTimeout(function () {
             if (UCC.campusLocations.length) {
                 //Make sure the marker array is empty so it will keep the same index as the campusLocation array
                 UCC.mapMarkers.length = 0;
+                var lineMarkers = [];
                 //Loop through the locations and plot them on the map
                 for (i = 0; i < (UCC.campusLocations).length; i += 1) {
                     // Map Coordinates
@@ -494,13 +509,17 @@
                     });
                     //Save them all for hiding or removal
                     UCC.mapMarkers.push(marker);
+                    lineMarkers.push(locationLatlng);
                     //Add to bounds
                     allBounds.extend(locationLatlng);
                     map.fitBounds(allBounds);
                     //Assign infowindow popups to each pointer
                     addMarkerInfoWindow(marker, map, i);
                 }
-            } else {
+
+                drawLines(lineMarkers, map);
+            } 
+            else {
                 getXMLLocations();
             }
         }, 1000);
@@ -714,10 +733,6 @@
         }
     });
     //-------✂---------------------------------------------
-
-
-
-
 
 
 }());
