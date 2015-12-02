@@ -185,7 +185,7 @@ textarea {
 
 .ui-icon {
     border-radius: 0;
-    background: transparent url(../img/common/sprite.png) no-repeat
+    background: transparent url(../img/common/sprite-2015.png) no-repeat
 }
 
 .ui-icon.ui-icon-arrow-r {
@@ -302,7 +302,7 @@ a.ui-btn.ui-btn-icon-notext .ui-icon.ui-icon-target {
 .ui-li-heading {
     display: block;
     font-size: 1em;
-    color: #4b6567
+    color: #414142;
 }
 
 .ui-input-search {
@@ -731,7 +731,7 @@ li.ui-btn>a.ui-li-link-alt .ui-btn-inner {
 }
 
 .swipe-header span {
-    background: url("../img/common/sprite.png") no-repeat scroll -64px 0 transparent;
+    background: url("../img/common/sprite-2015.png") no-repeat scroll -64px 0 transparent;
     bottom: 0;
     height: 10px;
     left: 50%;
@@ -774,13 +774,13 @@ ul.no-round-top, ul.no-round-top .ui-corner-top {
 
 .content-wrapper h2 {
     margin: 0 0 25px;
-    background: #4b6567;
+    background: #414142;
     color: #FFF
 }
 
 .content-wrapper h2 .sub-head {
     display: block;
-    color: #27313d;
+    color: #FFF;
     text-shadow: 0 1px 0 RGBA(0, 0, 0, 0.13);
     font-size: .857em;
     line-height: 1em
@@ -821,7 +821,7 @@ ul.no-round-top, ul.no-round-top .ui-corner-top {
 }
 
 .ui-input-search.ui-icon-searchfield.ui-body-s {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7) inset;
+    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7) inset;*/
     display: inline-block;
     width: 80%
 }
@@ -851,7 +851,7 @@ h2.big-icon {
 }
 
 h2.big-icon .icon {
-    background: url("../img/common/sprite.png") no-repeat;
+    background: url("../img/common/sprite-2015.png") no-repeat;
     height: 42px;
     left: 5px;
     margin-top: -21px;
@@ -960,7 +960,7 @@ h4 {
 }
 
 .ui-icon, .ui-icon-searchfield:after {
-    background: url("../img/common/sprite.png") no-repeat -154px -35px;
+    background: url("../img/common/sprite-2015.png") no-repeat -154px -35px;
     border-radius: 2px
 }
 
@@ -1144,7 +1144,7 @@ span.demoNotice {
         background-size: 205px auto
     }
     h2.big-icon .icon, .ui-icon, .ui-icon, .ui-icon-searchfield:after {
-        background-image: url("../img/common/sprite@2x.png");
+        background-image: url("../img/common/sprite-2015@2x.png");
         background-size: 274px auto
     }
     ul.bluebullet li {
@@ -1164,7 +1164,7 @@ span.demoNotice {
         background-size: 93px auto
     }
     .swipe-header span {
-        background-image: url("../img/common/sprite@2x.png");
+        background-image: url("../img/common/sprite-2015@2x.png");
         background-size: 274px auto
     }
 }
