@@ -440,12 +440,7 @@
     });
     //-------✂---------------------------------------------
 
-
-
-
-
-
-
+        
     // Map
     //-------✂---------------------------------------------
     $("#PubMap").live('pageshow', function () {
@@ -470,13 +465,15 @@
             i,
             searchStr;
 
-        function addMarkerInfoWindow(marker, map, i) {
+        function addMarkerInfoWindow(marker, map, i, searchTerm) {
             google.maps.event.addListener(marker, 'click', function () {
                 infowindow.setContent('<h4>'
                     + UCC.campusLocations[i].title + '</h4>' + '<p>'
                     //+ UCC.campusLocations[i].description
                     + '</p>' + '<a href="'
-                    + UCC.campusLocations[i].link + '">More information</a>');
+                    + UCC.campusLocations[i].link + '">More information</a>'
+                    + '</p>' + '<a href="'
+                    + 'https://www.google.ie/maps/place/'+ searchTerm + '" class="navigation-link">Open in maps</a>');
                 infowindow.open(map, this);
             });
         }
@@ -513,8 +510,9 @@
                     //Add to bounds
                     allBounds.extend(locationLatlng);
                     map.fitBounds(allBounds);
+                    var searchTerm = UCC.campusLocations[i].title.split('. ')[1].split(' -')[0];
                     //Assign infowindow popups to each pointer
-                    addMarkerInfoWindow(marker, map, i);
+                    addMarkerInfoWindow(marker, map, i, searchTerm);
                 }
 
                 drawLines(lineMarkers, map);
