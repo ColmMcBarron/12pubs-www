@@ -473,7 +473,7 @@
                     + '</p>' + '<a href="'
                     + UCC.campusLocations[i].link + '">More information</a>'
                     + '</p>' + '<a href="'
-                    + 'https://www.google.ie/maps/place/'+ searchTerm + '" class="navigation-link">Open in maps</a>');
+                    + 'https://maps.google.com?q='+ searchTerm + '">Open in maps</a>');
                 infowindow.open(map, this);
             });
         }
