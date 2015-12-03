@@ -471,9 +471,9 @@
                     + UCC.campusLocations[i].title + '</h4>' + '<p>'
                     //+ UCC.campusLocations[i].description
                     + '</p>' + '<a href="'
-                    + UCC.campusLocations[i].link + '">More information</a>'
-                    + '</p>' + '<a href="'
-                    + 'https://maps.google.com?q='+ searchTerm + '">Open in maps</a>');
+                    + UCC.campusLocations[i].link + '">More information</a>');
+                    //+ '</p>' + '<a href="'
+                    //+ 'https://www.google.ie/maps/place/'+ searchTerm + '/@'+UCC.campusLocations[i].latitude+','+UCC.campusLocations[i].longitude+'">Open in maps</a>');
                 infowindow.open(map, this);
             });
         }
